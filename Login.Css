@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(240, 242, 245);
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+.div-left{
+    margin-top: 15%;
+    margin-left: 15%;
+}
+.div-left span{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    color: rgb(8, 102, 255);  
+}
+.div-left p{
+    font-size: 28px;
+    font-family:'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    font-weight: 200;
+}
+.div-right{
+    height: 400px;
+    width: 396px;
+    display: flex;
+    padding-bottom: 24px;
+    padding-top: 10px;
+    margin-right: 10%;
+    margin-top: 10%;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+form input{
+    margin: 10px ;
+}
+.email{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    width: 364px;
+    line-height: 48px;
+    padding: 0 16px;
+}
+.pass{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    width: 364px;
+    line-height: 48px;
+    padding: 0 16px; 
+}
+.button1{
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 365px;
+}
+.button1::before{
+    content: 'Log in';
+    display: inline-block;
+    height: 20px; 
+}
+
+.fpass a{
+    text-decoration: none;
+    color: #1877f2;
+}
+.newacc  {
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    line-height: 48px;
+    padding: 0 12px;
+    width: 200px;
+    margin-left: 23%;
+    margin-top: 10px;
+}
+.newacc a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 17px;
+    font-weight:bolder;
+}
